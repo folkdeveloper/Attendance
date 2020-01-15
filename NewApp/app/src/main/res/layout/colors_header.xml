@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100">
+
+    <TextView
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="Name"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="50dp"
+        android:textSize="20dp"
+        android:id="@+id/textView1"
+        android:layout_weight="25"
+        />
+
+    <TextView
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="FG"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="50dp"
+        android:textSize="20dp"
+        android:id="@+id/textView2"
+        android:layout_weight="25"
+        />
+
+    <TextView
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="Area"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="50dp"
+        android:textSize="20dp"
+        android:id="@+id/textView3"
+        android:layout_weight="25"
+        />
+
+    <TextView
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="Time"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="50dp"
+        android:textSize="20dp"
+        android:id="@+id/textView4"
+        android:layout_weight="25"
+        />
+
+</LinearLayout>

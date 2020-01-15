@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@android:id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_weight="1.25"
+        android:gravity="center"
+        android:text="TL"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:background="@drawable/border_style"/>
+
+    <TextView
+        android:id="@android:id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_weight="1.5"
+        android:background="@drawable/border_style"
+        android:gravity="center"
+        android:text="S"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_weight="1.5"
+        android:background="@drawable/border_style"
+        android:gravity="center"
+        android:text="W"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_weight="1.5"
+        android:background="@drawable/border_style"
+        android:gravity="center"
+        android:text="SE"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text5"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_weight="1.5"
+        android:background="@drawable/border_style"
+        android:gravity="center"
+        android:text="O"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+</LinearLayout>
